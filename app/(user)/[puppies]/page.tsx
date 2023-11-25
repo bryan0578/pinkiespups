@@ -1,8 +1,7 @@
 import PuppiesCard from "@/components/PuppiesCard";
-import { PuppiesProps } from "@/types";
 import { getPups } from "@/sanity/actions";
   
-const page = async ({id, pupName, desc, color, sex, age, price, availability}:PuppiesProps) => {
+const page = async () => {
   const pups = await getPups();
   return (
     <main className="relative nav-padding">
