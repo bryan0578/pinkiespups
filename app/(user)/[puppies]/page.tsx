@@ -19,9 +19,9 @@ const page = async () => {
         <div className="py-8 text-center xl:text-left">
           <h2 className="font-bold text-2xl">Puppies Born on 10/20/23!</h2>
         </div>
-        <div className="flex-center xl:flex-start px-0 w-full gap-8 flex-wrap" >
+        <div className="flex-center xl:flex-start w-full gap-8 flex-wrap" >
           {pups.length === 0 ? (
-            <p>No puppies available right now. Check back soon or sign up for our news letter for updates for when more pups are on the way!</p>
+            <p className="text-center">No puppies available right now. Check back soon or sign up for our news letter for updates for when more pups are on the way!</p>
           ) : (
             pups.map((pup:any, index:any) => (
               <PuppiesCard 
@@ -35,6 +35,7 @@ const page = async () => {
                 sex={pup.puppyGender} 
                 age={pup.puppyAge}
                 price={pup.puppyPrice}
+                className="w-full md:w-1/2 lg:w-1/3"
               />
             ))
           )}

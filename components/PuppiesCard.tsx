@@ -17,15 +17,10 @@ import { useRouter } from "next/navigation"
 
 const PuppiesCard = ({id, imageUrl, pupName, desc, color, sex, age, price, availability}:any) => {
   const router = useRouter();
-  if (availability === 'Available') {
-    const textStyles = 'text-green-500'
-  } else {
-    const textStyles = 'text-red-500'
-  }
   return (
-    <div className="w-[450px] flex-center flex-wrap">
-    <Card className="w-[450px]">
-      <div className="pt-6 border-transparent rounded-lg flex-center">
+    <div className="flex-center flex-wrap">
+    <Card className="sm:w-[450px]">
+      <div className="p-6 border-transparent rounded-lg flex-center">
         <Image className="rounded-lg" src={imageUrl} alt={pupName} width={400} height={400} />
       </div>
         <CardContent className="pt-4">
