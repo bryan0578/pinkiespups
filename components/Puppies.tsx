@@ -5,11 +5,11 @@ interface PuppyCardProps {
   puppy: PuppiesProps;
 }
 const Puppies = ({puppy}: PuppyCardProps) => {
-    const {imageUrl, name, desc, color, sex, age, price } = puppy;
+    const {imageUrl, pupName, desc, color, sex, age, price } = puppy;
     const pups = puppies;
   return (
     pups.map((pup, index) => {
-        <PuppiesCard key={index} imageUrl={imageUrl} name={name} desc={desc} color={color} sex={sex} age={age} price={price}/>
+        <PuppiesCard key={index} imageUrl={imageUrl} name={pupName} desc={desc} color={color} sex={sex} age={age} price={price}/>
     })
     
   )
