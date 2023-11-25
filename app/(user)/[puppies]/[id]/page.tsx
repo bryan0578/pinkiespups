@@ -19,8 +19,8 @@ const page = async ({ params: { id } }: ParamsProps) => {
                 <div className="w-full lg:order-1">
                     <p className="text-lg text-[#282637] font-medium pb-2">Breedname</p>
                     <h2 className="font-semibold text-5xl text-[#030014] pb-6">{pup.puppyName}</h2>
-                    <p className="text-[#8d8c95] pb-10">{pup.puppyDesc}</p>
-                    <div className="flex items-end space-x-5">
+                    <p className=" text-neutral-500 pb-10">{pup.puppyDesc}</p>
+                    <div className="flex justify-center lg:justify-start items-end space-x-5">
                         <Button className='w-[125px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-none text-white'>Meet Me</Button>
                         <Button variant="outline" className='w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white'>Reserve</Button>
                     </div>
@@ -28,16 +28,16 @@ const page = async ({ params: { id } }: ParamsProps) => {
             </div>
             <div className="grid grid-cols-1 gap-20 mx-auto lg:grid-cols-2 py-10">
                 <div className="p-8">
-                    <div className="flex justify-evenly flex-row space-x-20">
-                        <div >
+                    <div className="w-full flex justify-evenly flex-row space-x-20">
+                        <div className="">
                             <p className="text-xl font-medium">{pup.puppyGender}</p>
                             <p className="text-xs pt-2 text-[#8d8c95]">Gender</p>
                         </div>
-                        <div>
-                            <p className="text-xl font-medium">{pup.puppyAge}</p>
+                        <div className="">
+                            <p className="text-xl font-medium">8 Weeks</p>
                             <p className="text-xs pt-2 text-[#8d8c95]">Age</p>
                         </div>
-                        <div>
+                        <div className="">
                             <p className="text-xl font-medium">${pup.puppyPrice}</p>
                             <p className="text-xs pt-2 text-[#8d8c95]">Price</p>
                         </div>

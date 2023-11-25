@@ -6,7 +6,7 @@ function PuppyBirthCard({}: Props) {
   return (
     <div className='w-full pt-20'>
         <div className="bg-pink-100 rounded-3xl p-8">
-            <div className="flex justify-evenly flex-row space-x-20 text-center">
+            <div className="flex justify-evenly md:flex-row flex-wrap lg:space-x-20 text-center">
                 <div >
                     <p className="text-xl font-medium">icon</p>
                     <p className="text-sm font-bold pt-2 text-[#8d8c95]">Nov 17, 2022</p>

@@ -45,8 +45,8 @@ const PuppiesCard = ({id, imageUrl, pupName, desc, color, sex, age, price, avail
             
         </CardContent>
         <CardFooter className="border border-t-2 py-4">
-          <div className="w-full h-full flex justify-end items-center">
-            <Button variant="outline" className='w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white' onClick={() => router.push(`/puppies/${id}`)} disabled={availability !== 'available'}>Learn More</Button>
+          <div className="w-full h-full flex justify-center lg:justify-end items-center">
+            <Button variant="outline" className=' w-full lg:w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white' onClick={() => router.push(`/puppies/${id}`)} disabled={availability !== 'available'}>Learn More</Button>
           </div>
             
         </CardFooter>
