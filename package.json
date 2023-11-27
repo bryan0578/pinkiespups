@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.2",
+    "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.19.2",
@@ -20,11 +22,14 @@
     "next-sanity": "^5.5.10",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
     "react-transition-group": "^4.4.5",
     "sanity": "^3.19.2",
     "styled-components": "^6.1.1",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20",

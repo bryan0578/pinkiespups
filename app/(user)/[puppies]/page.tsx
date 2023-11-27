@@ -1,11 +1,12 @@
+import ContactForm from "@/components/ContactForm";
 import PuppiesCard from "@/components/PuppiesCard";
 import { getPups } from "@/sanity/actions";
 
 const page = async () => {
   const pups = await getPups();
   return (
-    <main className="relative nav-padding px-4 xl:px-20 mx-auto">
-      <section>
+    <main className="relative nav-padding mx-auto">
+      <section className="px-4 lg:px-20">
         <div className="flex-center py-8">
           <h1 className="text-4xl text-center font-bold">Discover Your Perfect Companion</h1>
         </div>
@@ -18,6 +19,7 @@ const page = async () => {
         </div>
         <div className="py-8 text-center xl:text-left">
           <h2 className="font-bold text-2xl">Puppies Born on 10/20/23!</h2>
+          
         </div>
         <div className="flex-center xl:flex-start w-full gap-8 flex-wrap" >
           {pups.length === 0 ? (
@@ -40,6 +42,9 @@ const page = async () => {
             ))
           )}
         </div>
+      </section>
+      <section className="mt-20">
+        <ContactForm />
       </section>
     </main>
   )}

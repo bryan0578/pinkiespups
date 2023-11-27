@@ -1,10 +1,7 @@
 import About from '@/components/About'
-import AdoptionProcess from '@/components/AdoptionProcess'
-import ComingSoon from '@/components/ComingSoon'
-import Divider from '@/components/Divider'
 import FeaturedPups from '@/components/FeaturedPups'
 import Hero from '@/components/Hero'
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -16,7 +13,7 @@ export default function Home() {
       <section>
         <FeaturedPups />
       </section>
-      {/* <AdoptionProcess /> */}
+      
     </main>
   )
 }
