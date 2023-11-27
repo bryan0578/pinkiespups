@@ -14,8 +14,8 @@ const Hero = () => {
                 <h1 className='text-[2.5rem] md:text-[3.5rem] leading-[1.2em] font-bold mb-5 lg:mb-6'>Find your perfect furry companion today!</h1>
                 <p className=' text-base lg:text-lg mb-6 lg:mb-8'>Welcome to our dog breeder website, where you can browse our adorable puppies for sale and find your new best friend.</p>
                 <div className='flex-start gap-x-3'>
-                <Button onClick={() => router.push(`/puppies`)} className='w-[125px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-none text-white'>View Puppies</Button>
-                <Button onClick={() => router.push(`/contact`)} variant="outline" className='w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white'>Contact Us</Button>
+                <Button onClick={() => router.push(`/puppies`)} size="xl" className=' bg-pink-500  rounded-none text-white'>View Puppies</Button>
+                <Button onClick={() => router.push(`/contact`)} size="xl" variant="outline" className='rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white'>Contact Us</Button>
                 </div>
             </div>
             </div>
