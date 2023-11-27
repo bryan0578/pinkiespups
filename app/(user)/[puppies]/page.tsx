@@ -1,6 +1,6 @@
 import PuppiesCard from "@/components/PuppiesCard";
 import { getPups } from "@/sanity/actions";
-  
+
 const page = async () => {
   const pups = await getPups();
   return (
