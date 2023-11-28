@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import PuppyBirthCard from "@/components/PuppyBirthCard";
 import { useRouter } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 const page = async ({ params: { id } }: ParamsProps) => {
     const router = useRouter();
@@ -22,9 +23,15 @@ const page = async ({ params: { id } }: ParamsProps) => {
                     </div>
                     <div className="flex flex-col justify-between w-full lg:order-1 bg-pink-100 rounded-2xl p-8">
                         <div>
-                            <p className="text-lg text-[#282637] font-medium pb-2">Breedname</p>
+                            <p className="text-lg text-[#282637] font-medium pb-2">American Bully</p>
                             <h2 className="font-semibold text-5xl text-[#030014] pb-6">{pup.puppyName}</h2>
+                            <div className="flex flex-col lg:flex-row space-x-8 text-pink-500 text-lg underline pb-4">
+                                <Link className="hover:text-pink-500/70" href="https://www.akc.org/dog-breeds/american-bulldog/" target="_blank">AKC Breed Info</Link>
+                                <Link className="hover:text-pink-500/70" href="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/10/03103215/American-Bulldog-Standard-11.19.pdf" target="_blank">AKC Breed Standards</Link>
+                            </div>
                             <p className=" text-[#828282] pb-10">{pup.puppyDesc}</p>
+                            
+                            
                         </div>
                         <div className="flex items-end space-x-5">
                             <Button onClick={() => router.push(`/contact`)} className='w-[125px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-none text-white'>Meet Me</Button>

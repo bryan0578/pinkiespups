@@ -34,7 +34,7 @@ const Navbar = () => {
                         setActive('home');
                     }}>
                 <Image src="/Logo.svg" className="w-[50px] h-[50px]" width={50} height={50} alt={'Pinkies Puppies Logo'}/>
-                <h1 className='hidden lg:block pl-4 text-pink-500 text-xl font-bold'>Pinkies Pups</h1>
+                <h1 className='hidden lg:block pl-4 text-pink-500 text-xl font-bold'>Pinkys Pups</h1>
                 </Link>
                 <Image
                     src={toggle ? "/x.svg" : "/menu.svg"}

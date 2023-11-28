@@ -13,6 +13,12 @@ const schema = {
             }
         },
         {
+            name: "puppyBreed",
+            title: "Puppy Breed",
+            type: "string",
+            validation: (Rule: any) => Rule.required()
+        },
+        {
             name: "puppyName",
             title: "Puppy Name",
             type: "string",
@@ -21,6 +27,11 @@ const schema = {
         {
             name: "puppyDesc",
             title: "Puppy Description",
+            type: "string",
+        },
+        {
+            name: "puppyAbout",
+            title: "Puppy About",
             type: "string",
         },
         {
