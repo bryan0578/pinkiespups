@@ -25,18 +25,18 @@ const PuppiesCard = ({id, imageUrl, pupName, desc, color, sex, age, price, avail
       </div>
         <CardContent className="pt-4">
             <div className="flex-between pb-4 text-lg">
-              <p className="font-semibold">Name: <span className="font-normal">{pupName}</span></p>
+              <p className="text-base lg:text-lg font-semibold">Name: <span className="font-normal">{pupName}</span></p>
               <div className={`${availability === 'available' ? 'bg-pink-500' : 'bg-black'} flex items center px-4 py-1 rounded-full`}>
-                <p className={`text-white font-semibold capitalize`}>{availability}</p>
+                <p className={`text-white text-base lg:text-lg font-semibold capitalize`}>{availability}</p>
               </div>
               
             </div>
             
-            <p className="font-semibold">Description: <span className="font-normal">{desc}</span></p>
-            <p className="font-semibold">Color: <span className="font-normal">{color}</span></p>
-            <p className="font-semibold">Gender: <span className="font-normal">{sex}</span></p>
-            <p className="font-semibold">Age: <span className="font-normal">{age}</span></p>
-            <p className="font-semibold">Price <span className="font-normal">${price}</span></p>
+            <p className="text-base lg:text-lg font-semibold">Description: <span className="font-normal">{desc}</span></p>
+            <p className="text-base lg:text-xl font-semibold">Color: <span className="font-normal">{color}</span></p>
+            <p className="text-base lg:text-lg font-semibold">Gender: <span className="font-normal">{sex}</span></p>
+            <p className="text-base lg:text-lg font-semibold">Age: <span className="font-normal">{age}</span></p>
+            <p className="text-base lg:text-lg font-semibold">Price <span className="font-normal">${price}</span></p>
             
         </CardContent>
         <CardFooter className="border border-t-2 py-4">

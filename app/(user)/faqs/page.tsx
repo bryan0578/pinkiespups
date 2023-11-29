@@ -1,8 +1,8 @@
 "use client"
 
 import FaqsSection from "@/components/FaqsSection";
+import { faqs } from "@/constants";
 
-const faqs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 export default function Home() {
   return (
@@ -26,9 +26,9 @@ export default function Home() {
             </div>
             
         </div>
-        <div className='max-w-7xl  mx-auto'>
-        {faqs.map((i) => (
-            <FaqsSection />
+        <div className='max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4'>
+        {faqs.map((faq, i) => (
+            <FaqsSection a={faq.a} b={faq.q}/>
         ))}
         </div>
     </main>

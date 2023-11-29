@@ -1,13 +1,11 @@
 export interface PuppiesProps {
-    id: string;
-    imageUrl: string;
-    pupName: string;
-    desc: string;
-    color: string;
-    sex: string;
-    age: string;
-    price: string;
-    availability: string;
+    puppyImage: string;
+    puppyName: string;
+    puppyDesc: string;
+    puppyAbout: string;
+    puppyGender: string;
+    puppyAge: string;
+    puppyPrice: string;
 }
 
 export interface ParamsProps {

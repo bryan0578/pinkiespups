@@ -5,7 +5,7 @@ export const navLinks = [
     },
     {
         url: "adopt",
-        label:"Adoption Contract"
+        label:"Adoption"
     },
     {
         url: "faqs",
@@ -50,75 +50,46 @@ export const policies = [
     },   
 ]
 
-export const puppies = [
+export const faqs = [
     {
-        name: "Puppy 1",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: What is an American Bully?",
+        a: "A: The American Bully is a well-muscled and heavily built dog breed known for its friendly and affectionate nature.",
     },
     {
-        name: "Puppy 1",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: How do I adopt a puppy from your breeding program?",
+        a: "A: You can adopt a puppy by either placing a 50% deposit or paying the full amount. Details on the adoption process can be found on our website.",
     },
     {
-        name: "Puppy 2",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: What is the purpose of the 50% deposit?",
+        a: "A: The deposit secures your chosen puppy. It's a commitment to adopt, and you have 30 days to pay the remaining balance. If not paid in full within this period, the deposit is forfeited.",
     },
     {
-        name: "Puppy 3",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: How can I pay for a puppy?",
+        a: "A: We accept both online payments through our website and in-person payments. Payment options will be provided during the adoption process.",
     },
     {
-        name: "Puppy 4",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: Can I visit the puppies before making a decision?",
+        a: "A: Yes, we encourage prospective owners to schedule a visit to meet our puppies and their parents. Contact us to arrange a suitable time.",
     },
     {
-        name: "Puppy 5",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: What is included in the adoption fee?",
+        a: "A: The adoption fee covers vaccinations, deworming, a health guarantee, and a starter kit. Details are outlined in the adoption contract.",
     },
     {
-        name: "Puppy 6",
-        desc: "HEy",
-        color: "white",
-        sex: "Male",
-        age: "8 weeks old",
-        price: "2000",
-        availablity: "Available",
-        imageUrl:"/bulldog.jpg"
+        q: "Q: How do I fill out the adoption contract?",
+        a: "A: Download the adoption contract from our website, fill it out completely, and bring it with you when picking up your puppy. This ensures a smooth adoption process.",
     },
+    {
+        q: "Q: Is the adoption fee refundable?",
+        a: "A: No, the adoption fee, including the deposit, is non-refundable. This policy helps us maintain the highest standards of care for our puppies.",
+    },
+    {
+        q: "Q: Can I choose the gender and color of my puppy?",
+        a: "A: While we consider your preferences, the final selection is based on various factors including temperament and compatibility. We aim to match each puppy with the most suitable home.",
+    },
+    {
+        q: "Q: What support do you provide after the adoption?",
+        a: "A: We offer ongoing support and advice to ensure a successful transition for both the puppy and the new owner. Feel free to reach out to us with any questions or concerns.",
+    },  
 ]
+

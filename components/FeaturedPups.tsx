@@ -9,7 +9,7 @@ const FeaturedPups = () => {
             <div className="mb-[5rem]">
                 <div className='text-center mx-auto w-full max-w-[48rem]'>
                     <h2 className='mb-[1.5rem] font-bold text-[2.25rem] md:text-[3rem]'>Adorable Puppies</h2>
-                    <p className=" text-base md:text-[1.125rem]">Browse our selection of cute and cuddly puppies</p>
+                    <p className=" md:text-base lg:text-lg">Browse our selection of cute and cuddly puppies</p>
                 </div>
             </div>
 
