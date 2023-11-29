@@ -9,13 +9,6 @@ import PuppyBirthCard from "@/components/PuppyBirthCard";
 import { useRouter } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
-import { GetStaticProps } from "next";
-
-import { PuppiesProps } from "@/types";
-
-type Props = {
-    puppiesProps: PuppiesProps
-}
 
 const page = async ({ params: { id } }: ParamsProps) => {
     const router = useRouter();
