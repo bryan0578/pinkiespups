@@ -9,7 +9,7 @@ export default function page() {
                     <ol className="text-left list-decimal pl-8 space-y-4">
                         <li>Explore Available Puppies: Browse our website to view profiles and pictures of available American Bully puppies. Each puppy's details, including color, markings, and personality traits, are provided.</li>
                         <li>Contact Us: Reach out to us through the contact form on our website or via phone to express your interest in a specific puppy or to inquire about upcoming litters.</li>
-                        <li>Schedule a Visit: Schedule a visit to our breeding facility to meet the puppies and their parents. This allows you to get a closer look at the living conditions and ensure a suitable match.</li>
+                        <li>Schedule a Visit: Schedule a visit to meet the puppies and their parents. This allows you to get a closer look at the living conditions and ensure a suitable match.</li>
                         <li>Adoption Application: Complete our adoption application form, providing information about your living situation, experience with dogs, and your plans for the puppy's care.</li>
                         <li>Review Adoption Policies: Familiarize yourself with our adoption policies, including the adoption fee, deposit requirements, and any health guarantees. This information is available on our website and will be discussed during the application process.</li>
                         <li>Place a Deposit: If you've found the perfect match, you can secure the puppy by placing a 50% non-refundable deposit. This step initiates the adoption process and ensures the availability of your chosen puppy.</li>

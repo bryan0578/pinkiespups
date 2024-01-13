@@ -18,7 +18,7 @@ const page = async () => {
           </p>
         </div>
         <div className="py-8 text-center xl:text-left">
-          <h2 className="font-bold text-2xl lg:text-3xl">Puppies Born on 10/20/23!</h2>
+          <h2 className="font-bold text-2xl lg:text-3xl">Puppies Born on 9/8/23!</h2>
           
         </div>
         <div className="flex-center xl:flex-start w-full gap-8 flex-wrap" >
@@ -32,7 +32,7 @@ const page = async () => {
                 imageUrl={pup.image} 
                 pupName={pup.puppyName} 
                 availability={pup.puppyAvailability}
-                desc={pup.puppyDesc} 
+                desc={pup.puppyAbout} 
                 color={pup.puppyColor} 
                 sex={pup.puppyGender} 
                 age={pup.puppyAge}

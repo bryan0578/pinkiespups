@@ -32,11 +32,11 @@ const PuppiesCard = ({id, imageUrl, pupName, desc, color, sex, age, price, avail
               
             </div>
             
-            <p className="text-base lg:text-lg font-semibold">Description: <span className="font-normal">{desc}</span></p>
-            <p className="text-base lg:text-xl font-semibold">Color: <span className="font-normal">{color}</span></p>
+            {/* <p className="text-base lg:text-lg font-semibold">Description: <span className="font-normal">{desc}</span></p> */}
+            <p className="text-base lg:text-lg font-semibold">Color: <span className="font-normal">{color}</span></p>
             <p className="text-base lg:text-lg font-semibold">Gender: <span className="font-normal">{sex}</span></p>
             <p className="text-base lg:text-lg font-semibold">Age: <span className="font-normal">{age}</span></p>
-            <p className="text-base lg:text-lg font-semibold">Price <span className="font-normal">${price}</span></p>
+            <p className="text-base lg:text-lg mt-4 font-semibold text-right">Price: <span className="font-bold text-pink-500">${price}</span></p>
             
         </CardContent>
         <CardFooter className="border border-t-2 py-4">

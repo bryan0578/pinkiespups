@@ -10,12 +10,17 @@ const PaymentDisclaimer = () => (
         </div>
         <div className="pt-10">
             <h2 className="text-2xl flex-center font-bold py-6">Payment Methods</h2>
-            <p className="font-semibold text-base lg:text-lg text-center">
-                We accept all major credit cards and cash.
-            </p>
-            <p className="text-center text-base lg:text-lg mt-2">
-                Please note that credit cards are only accepted for online transactions.
-            </p>
+                <p className="font-semibold text-pink-500 text-base lg:text-lg text-center">
+                    Please contact us for payment options.
+                </p>
+            {/* 
+                <p className="font-semibold text-base lg:text-lg text-center">
+                    We accept all major credit cards and cash.
+                </p>
+                <p className="text-center text-base lg:text-lg mt-2">
+                    Please note that credit cards are only accepted for online transactions.
+                </p>
+            */}
         </div>    
     </div>
 )

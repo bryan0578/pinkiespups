@@ -10,6 +10,7 @@ export const getPups = async () => {
                 "image": puppyImage.asset->url,
                 puppyName,
                 puppyDesc,
+                puppyAbout,
                 puppyColor,
                 puppyGender,
                 puppyAge,

@@ -65,15 +65,15 @@ export const faqs = [
     },
     {
         q: "Q: How can I pay for a puppy?",
-        a: "A: We accept both online payments through our website and in-person payments. Payment options will be provided during the adoption process.",
+        a: "A: We accept payments in person with cash or check",
+    },
+    {
+        q: "Q: Why can't I pay with a credit card?",
+        a: "A: Currently we are not set up to receive credit card payments. We are working to offer more payment options. Contact us or keep checking our website for updates.",
     },
     {
         q: "Q: Can I visit the puppies before making a decision?",
         a: "A: Yes, we encourage prospective owners to schedule a visit to meet our puppies and their parents. Contact us to arrange a suitable time.",
-    },
-    {
-        q: "Q: What is included in the adoption fee?",
-        a: "A: The adoption fee covers vaccinations, deworming, a health guarantee, and a starter kit. Details are outlined in the adoption contract.",
     },
     {
         q: "Q: How do I fill out the adoption contract?",
@@ -87,9 +87,5 @@ export const faqs = [
         q: "Q: Can I choose the gender and color of my puppy?",
         a: "A: While we consider your preferences, the final selection is based on various factors including temperament and compatibility. We aim to match each puppy with the most suitable home.",
     },
-    {
-        q: "Q: What support do you provide after the adoption?",
-        a: "A: We offer ongoing support and advice to ensure a successful transition for both the puppy and the new owner. Feel free to reach out to us with any questions or concerns.",
-    },  
 ]
 
