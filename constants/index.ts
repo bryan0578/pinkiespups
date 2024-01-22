@@ -65,7 +65,7 @@ export const faqs = [
     },
     {
         q: "Q: How can I pay for a puppy?",
-        a: "A: We accept payments in person with cash or check",
+        a: "A: We accept payments in person with cash or check, contact us for other payment options",
     },
     {
         q: "Q: Why can't I pay with a credit card?",
@@ -82,10 +82,6 @@ export const faqs = [
     {
         q: "Q: Is the adoption fee refundable?",
         a: "A: No, the adoption fee, including the deposit, is non-refundable. This policy helps us maintain the highest standards of care for our puppies.",
-    },
-    {
-        q: "Q: Can I choose the gender and color of my puppy?",
-        a: "A: While we consider your preferences, the final selection is based on various factors including temperament and compatibility. We aim to match each puppy with the most suitable home.",
-    },
+    }
 ]
 

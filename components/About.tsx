@@ -9,7 +9,7 @@ const About = () => {
                 <div className="grid items-center lg:grid-cols-2 gap-x-16 gap-y-20">
                     <div>
                         <h3 className='text-[2.5rem] leading-[1.2em] font-bold mb-5 lg:mb-6'>Expert Dog Breeder Providing Healthy, Well-Socialized Puppies for Loving Homes</h3>
-                        <p className='md:text-base lg:text-lg mb-5 lg:mb-6'>With years of experience, we are dedicatied to raising puppies with the utmost care and love.</p>
+                        <p className='md:text-base lg:text-lg mb-5 lg:mb-6'>With years of experience, we are dedicated to raising puppies with the utmost care and love.</p>
                         <ul className="flex-start flex-col gap-y-4">
                             <li>
                                 <div className='flex-start'>

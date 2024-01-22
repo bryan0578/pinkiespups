@@ -10,8 +10,8 @@ const FeaturedPups = ({id, imageUrl}:any) => {
     return (
         <div className="w-full max-w-[80rem] mx-auto">
             <div className='flex justify-center gap-[2rem]'>
-                <button onClick={() => router.push(`/puppies/${id}`)}>
-                    <Image src={imageUrl} alt="bulldog" width={296} height={296} />
+                <button className="rounded-xl border-[4px] border-pink-500 h-[250px] overflow-hidden hover:opacity-70" onClick={() => router.push(`/puppies/${id}`)}>
+                    <Image src={imageUrl} alt="bulldog" width={296} height={150} />
                 </button>
             </div>
         </div>
