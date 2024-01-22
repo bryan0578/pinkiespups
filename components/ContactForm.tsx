@@ -57,8 +57,8 @@ function ContactForm({}: Props) {
                 <div className="flex-1 space-y-4">
                     <h2 className="text-2xl lg:text-3xl font-bold">Contact Us</h2>
                     <p className="text-base lg:text-lg">If you have any questions or are interested in our puppies, please don't hesitate to reach out. You can contact us by phone, email, or by filling out the form. We will respond promptly to assist you. For inquiries about a specific puppy, please include the puppy's name in the subject line for a quick response.</p>
-                    <p className="pt-4 text-base lg:text-lg font-bold text-pink-500"><span className="text-black">Phone:</span>{" "}<span><Link href="tel:1-859-308-2889">859-308-2889</Link></span></p>
-                    <p className="text-base lg:text-lg font-bold text-pink-500"><span className="text-black">Email:</span>{" "}<span><Link href="mailto:info@pinkiespups.com">info@pinkiespups.com</Link></span></p>
+                    <p className="pt-4 text-base lg:text-lg font-bold text-pink-500"><span className="text-black">Phone:</span>{" "}<span><a href="tel:1-859-308-2889">859-308-2889</a></span></p>
+                    <p className="text-base lg:text-lg font-bold text-pink-500"><span className="text-black">Email:</span>{" "}<span><a href="mailto:info@pinkiespups.com">info@pinkiespups.com</a></span></p>
                     {/* comment this section */}
 
                 </div>
