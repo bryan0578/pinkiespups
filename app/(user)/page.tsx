@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { getPups } from '@/sanity/actions';
 import Link from 'next/link';
 
-
+export const revalidate = 60;
 
 export default async function Home() {
 const pups = await getPups();

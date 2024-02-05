@@ -2,6 +2,8 @@ import ContactForm from "@/components/ContactForm";
 import PuppiesCard from "@/components/PuppiesCard";
 import { getPups } from "@/sanity/actions";
 
+export const revalidate = 60;
+
 const page = async () => {
   const pups = await getPups();
   return (
