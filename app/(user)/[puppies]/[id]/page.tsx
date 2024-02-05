@@ -9,6 +9,9 @@ import PuppyBirthCard from "@/components/PuppyBirthCard";
 import { useRouter } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import { urlFor } from "@/sanity/lib/image";
+
+export const revalidate = 60;
 
 const page = async ({ params: { id } }: ParamsProps) => {
     const router = useRouter();
@@ -19,7 +22,7 @@ const page = async ({ params: { id } }: ParamsProps) => {
             <section className="nav-padding max-w-7xl px-10 xl:px-0 flex flex-col items-center justify-center mx-auto">
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 py-10">
                     <div className="rounded-2xl flex-shrink-0 lg:order-2">
-                        <Image className="rounded-2xl" src={pup.image} alt={pup.name} width={700} height={600} />
+                        <Image className="rounded-2xl" src={urlFor(pup.image).url()} alt={pup.name} width={700} height={600} />
                     </div>
                     <div className="flex flex-col justify-between w-full lg:order-1 bg-pink-100 rounded-2xl p-8">
                         <div>
@@ -43,9 +46,9 @@ const page = async ({ params: { id } }: ParamsProps) => {
                             
                             
                         </div>
-                        <div className="flex items-end space-x-5">
-                            <Button onClick={() => router.push(`/contact`)} className='w-[125px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-none text-white'>Meet Me</Button>
-                            <Button variant="outline" className='w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white'>Reserve</Button>
+                        <div className="flex items-end pt-4 space-x-5">
+                            <Button onClick={() => router.push(`/contact`)} className='w-[125px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-none text-white'>Reserve</Button>
+                            {/* <Button variant="outline" className='w-[125px] h-[50px] rounded-none text-pink-500 border-pink-500 border-2 hover:bg-pink-600 hover:border-none hover:text-white'>Reserve</Button>*/}
                         </div>
                     </div> 
                 </div>

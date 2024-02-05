@@ -12,6 +12,7 @@ import Image from "next/image"
 import { Button } from "./ui/button"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
+import { urlFor } from "@/sanity/lib/image"
   
  
 
@@ -21,7 +22,7 @@ const PuppiesCard = ({id, imageUrl, pupName, desc, color, sex, age, price, avail
     <div className="flex-center flex-wrap">
     <Card className="sm:w-[450px]">
       <div className="p-6 border-transparent rounded-lg flex-center">
-        <Image className="rounded-lg" src={imageUrl} alt={pupName} width={400} height={400} />
+        <Image className="rounded-lg flex-center object-contain" src={urlFor(imageUrl).url()} alt={pupName} width={400} height={400} />
       </div>
         <CardContent className="pt-4">
             <div className="flex-between pb-4 text-lg">
