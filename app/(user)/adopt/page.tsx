@@ -21,7 +21,7 @@ export default function page() {
                     </ol>
                 </div>
                 <div className="mt-16 text-center">
-                    <a href="/public/PinkysPupsAdoptionContract.pdf" download="PinkysPupsAdoptionContract.pdf">
+                    <a href="/PinkysPupsAdoptionContract.pdf" download="PinkysPupsAdoptionContract.pdf">
                         <Button size="xl">
                             Download Adoption Contract
                         </Button>
