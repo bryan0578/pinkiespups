@@ -32,7 +32,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className='w-full h-full'>
-                        <Image className="w-full h-full" src="/bulldog.jpg" alt="bulldog" width={600} height={600} />
+                        <Image className="w-full h-full" src="/IMG_8021.jpg" alt="bulldog" width={600} height={600} />
                     </div>
                 </div>
             </div>

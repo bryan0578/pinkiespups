@@ -63,7 +63,7 @@ function ContactForm({}: Props) {
 
                 </div>
                 <div className="flex-1">
-                    <Image className='bg-blend-darken w-full h-full object-cover' src="/heroImage.jpg" alt="hero" width={400} height={400}/>
+                    <Image className='bg-blend-darken w-full h-full object-cover' src="/pinky.jpeg" alt="hero" width={400} height={400}/>
                 </div>
                 {/*<div className="flex-1">
                     <Form {...form}>
